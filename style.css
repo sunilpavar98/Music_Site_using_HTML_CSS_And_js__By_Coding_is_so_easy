@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --blue      : #4e7ff1;
+    --voilet    : #8a5a8f;
+    --lightblack: #515c6f;
+    --white     : #fff;
+    --darkwhite : #cecaca;
+    --ponkshadow: #ffcbdd;
+    --lighbshadow:rgba(0, 0, 0, 0.15);
+    --shadow    : rgba(0, 0, 0, 0.99);
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(var(--blue) 3%, var(--voilet) 110%);
+}
+
+.wrapper{
+    width: 380px;
+    padding: 25px 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 25px;
+    background: rgb(215, 215, 215);
+    box-shadow: 5px 2px 25px var(--shadow);
+}
+.wrapper i{
+    cursor: pointer;
+}
+
+.top-bar,
+.progress-area .song-timer,
+.controls,
+.music-list .header,
+.music-list ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Top-Bar */
+
+/* img-area */
+
+/* Song Details */
+
+/* Progress Area */
+
+/* controls */
+
+/* Music List */
